@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Citizen Feedback</title>
+  <link rel="stylesheet" href="dat.css">
+  <script src="file.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h2>Enter Your Bio</h2>
+    <div class="bio-section">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="age">Age:</label>
+      <input type="text" id="age" name="age" required>
+
+      <label for="city">City:</label>
+      <input type="text" id="city" name="city" required>
+
+      <label for="country">Country:</label>
+      <input type="text" id="country" name="country" required>
+
+      <label for="occupation">Occupation:</label>
+      <input type="text" id="occupation" name="occupation" required>
+    </div>
+
+    <div class="feedback-section">
+      <h2>Enter Your Feedback on Laws</h2>
+      <label for="feedback">Feedback:</label>
+      <textarea id="feedback" name="feedback" rows="5" required></textarea>
+
+      <button type="submit">Submit</button>
+    </div>
+  </div>
+
+  <div class="feedback-container">
+    <h2>Feedback Analysis</h2>
+    <p>Here you can see the analysis of feedback provided by citizens.</p>
+    <!-- Add your data analysis code here -->
+  </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Questions based on government laws</title>
+</head>
+<body>
+	<!DOCTYPE html>
+<html>
+<head>
+	<title>Subjective Questions based on government laws</title>
+</head>
+<body>
+	<h1>Subjective Questions based on government laws</h1>
+	<p>Please answer the following questions:</p>
+	<form action="submit_answers.php" method="post">
+		<what are you not happy about?>
+		<label for="sq1">What are you not happy about?</label>
+		<textarea id="sq1" name="sq1" rows="5" cols="50"></textarea>
+		<br><br>
+
+		<!-- Subjective Question 2 -->
+		<label for="sq2">What are you happy about?</label>
+		<textarea id="sq2" name="sq2" rows="5" cols="50"></textarea>
+		<br><br>
+
+		<!-- Subjective Question 3 -->
+		<label for="sq3">Is there anything left in your life?</label>
+		<textarea id="sq3" name="sq3" rows="5" cols="50"></textarea>
+		<br><br>
+
+		<!-- Submit Button -->
+		<input type="submit" value="Submit Answers">
+	</form>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Law Quiz</title>
+</head>
+<body>
+	<h1>Law Quiz</h1>
+	<form>
+		<h2>Question 1:</h2>
+		<p>Which of the following is a fundamental right guaranteed by the Indian Constitution?</p>
+		<input type="radio" name="q1" value="a">Right to education<br>
+		<input type="radio" name="q1" value="b">Right to strike<br>
+		<input type="radio" name="q1" value="c">Right to property<br>
+		<input type="radio" name="q1" value="d">Right to drink alcohol<br>
+
+		<h2>Question 2:</h2>
+		<p>Which of the following acts deals with protection of women from domestic violence in India?</p>
+		<input type="radio" name="q2" value="a">Indian Penal Code<br>
+		<input type="radio" name="q2" value="b">Dowry Prohibition Act<br>
+		<input type="radio" name="q2" value="c">Protection of Women from Domestic Violence Act<br>
+		<input type="radio" name="q2" value="d">None of the above<br>
+
+		<h2>Question 3:</h2>
+		<p>Which of the following is a consumer protection act in India?</p>
+		<input type="radio" name="q3" value="a">Motor Vehicles Act<br>
+		<input type="radio" name="q3" value="b">Indian Contract Act<br>
+		<input type="radio" name="q3" value="c">Consumer Protection Act<br>
+		<input type="radio" name="q3" value="d">None of the above<br>
+
+		<h2>Question 4:</h2>
+		<p>Which of the following is a law regulating the use of Aadhaar cards in India?</p>
+		<input type="radio" name="q4" value="a">National Food Security Act<br>
+		<input type="radio" name="q4" value="b">Right to Information Act<br>
+		<input type="radio" name="q4" value="c">Aadhaar (Targeted Delivery of Financial and Other Subsidies, Benefits and Services) Act<br>
+		<input type="radio" name="q4" value="d">None of the above<br>
+
+		<h2>Question 5:</h2>
+		<p>Which of the following acts deals with environmental protection in India?</p>
+		<input type="radio" name="q5" value="a">Wildlife Protection Act<br>
+		<input type="radio" name="q5" value="b">Air (Prevention and Control of Pollution) Act<br>
+		<input type="radio" name="q5" value="c">Water (Prevention and Control of Pollution) Act<br>
+		<input type="radio" name="q5" value="d">All of the above<br>
+
+		<br><br>
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
+
+
+
